@@ -1,50 +1,89 @@
 html {
-  padding: 0;
-  margin: 0;
-  background-color: #FAFAFA;
-  color: #232323;
+    padding: 0;
+    margin: 0;
+    background-color: #FAFAFA;
+    color: #232323;
 }
 
 body {
-  font-weight: 300;
-  font-family: 'Open Sans Condensed', sans-serif;
-  vertical-align: baseline;
-  font-size: 16px;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: geometricPrecision;
-  max-width: 42rem;
-  padding: 2rem;
-  padding-top: 0.5rem;
+    font-weight: 300;
+    font-family: 'Open Sans Condensed', sans-serif;
+    vertical-align: baseline;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+    max-width: 42rem;
+    padding: 2rem;
+    padding-top: 0.5rem;
 
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
-    text-align: center;
     font-size: 5rem;
 }
 
+p {
+    margin: 0;
+    line-height: 26px;
+}
+
 h1, h2, h3 {
+    margin: 0;
+    margin-top: 1em;
     font-family: 'Raleway', sans-serif;
 }
 
 a {
-  color: #95130f;
-  text-decoration: none;
+    color: #95130f;
+    text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 ::selection {
-  color: #EFEFEF;
-  background: #95130f;
+    color: #EFEFEF;
+    background: #95130f;
 }
 ::-moz-selection {
-  color: #EFEFEF;
-  background: #95130f;
+    color: #EFEFEF;
+    background: #95130f;
 }
 
 @media all and (max-width: 600px) {
+}
+
+hr {
+    margin-top: 0.5;
+    margin-bottom: 0.5em;
+    width: 50%;
+    background-color: none;
+    height: 1px;
+    border: none;
+    border-bottom: 1px dotted #666666;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.headshot {
+    text-align: center;
+}
+.headshot img {
+   border: 1px dotted #666666; 
+}
+
+.info {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 0.8rem;
 }

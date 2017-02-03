@@ -13,8 +13,24 @@
 
     </head>
     <body>
-        <h1>Victoria Hudson</h1>
+        <div class="header">
+            <h1>Victoria Hudson</h1>
+            <hr/>
+            <p>Actress</p>
+        </div>
 
+        <div class="info">
+            <p>Northern Star Acting Agency, Sherburn in Elmet, Leeds LS25 6BD</p>
+            <p><a href="mailto:info@victoria-hudson.co.uk">info@victoria-hudson.co.uk</a></p>
+        </div>
+
+        <div class="headshot">
+            <img src="/images/headshot.jpg" alt="Victoria Hudson Headshot"/>
+        </div>
+
+        <div class="footer">
+            &copy; Victoria Hudson <?=date('Y');?>
+        </div>
     
     </body>
 </html>
