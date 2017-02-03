@@ -1,0 +1,50 @@
+html {
+  padding: 0;
+  margin: 0;
+  background-color: #FAFAFA;
+  color: #232323;
+}
+
+body {
+  font-weight: 300;
+  font-family: 'Open Sans Condensed', sans-serif;
+  vertical-align: baseline;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+  max-width: 42rem;
+  padding: 2rem;
+  padding-top: 0.5rem;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #95130f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+::selection {
+  color: #EFEFEF;
+  background: #95130f;
+}
+::-moz-selection {
+  color: #EFEFEF;
+  background: #95130f;
+}
+
+@media all and (max-width: 600px) {
+}
