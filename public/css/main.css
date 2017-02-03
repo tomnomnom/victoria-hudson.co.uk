@@ -75,6 +75,7 @@ hr {
 }
 .headshot img {
    border: 1px dotted #666666; 
+   max-width: 80%;
 }
 
 .info {
