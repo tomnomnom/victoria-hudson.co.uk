@@ -15,6 +15,7 @@ body {
     max-width: 42rem;
     padding: 2rem;
     padding-top: 0.5rem;
+    position: relative;
 
     margin-left: auto;
     margin-right: auto;
@@ -24,15 +25,28 @@ h1 {
     font-size: 5rem;
 }
 
+.header p, .info p {
+    text-align: center;
+}
+
 p {
     margin: 0;
     line-height: 26px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 h1, h2, h3 {
     margin: 0;
-    margin-top: 1em;
+    margin-top: 1rem;
     font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
 }
 
 a {
@@ -58,7 +72,7 @@ a:hover {
 hr {
     margin-top: 0.5;
     margin-bottom: 0.5em;
-    width: 50%;
+    width: 40%;
     background-color: none;
     height: 1px;
     border: none;
@@ -67,7 +81,28 @@ hr {
 
 .header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.nav {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.insta {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 .headshot {
@@ -87,4 +122,13 @@ hr {
     margin-top: 4rem;
     text-align: center;
     font-size: 0.8rem;
+}
+
+
+.gallery-container {
+    text-align: center;
+    display: inline-block;
+
+    width: 200px;
+    height: 200px;
 }
