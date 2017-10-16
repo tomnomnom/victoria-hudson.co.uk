@@ -19,7 +19,7 @@
             <p>Actress</p>
 
             <div class="nav">
-                <a href="#">Home</a>
+                <a href="/">Home</a>
                 <a href="/gallery.php">Gallery</a>
                 <a href="#">Bio</a>
                 <a href="#">Contact</a>
